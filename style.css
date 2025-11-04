@@ -41,4 +41,29 @@ h1 {
   margin-bottom: 25px;
   font-weight: 700;
 }
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+nav {
+  padding: 25px 60px;
+}
+
+nav a {
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.content p, .content li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 

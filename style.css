@@ -1,90 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 body {
-  background: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  margin: 0;
+  margin:0;
   background: linear-gradient(135deg, #000000, #0c1f24);
-  color: white;
+  color:white;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* NAV */
 nav {
-  width: 100%;
-  display: flex;
-  gap: 30px;
-  padding: 18px 40px;
-  font-size: 20px;
-  font-weight: 500;
+  width:100%;
+  display:flex;
+  gap:35px;
+  padding:22px 60px;
+  font-size:19px;
+  font-weight:500;
 }
 
 nav a {
-  margin-right: 20px;
-  color: #00eaff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+  color:#00eaff;
+  text-decoration:none;
+  transition:0.3s;
 }
 
 nav a:hover {
-  color: white;
-  text-decoration: underline;
+  color:white;
+  text-decoration:underline;
+  letter-spacing:1px;
 }
 
+/* CONTENT */
 .content {
-  padding: 80px 50px;
+  max-width:1000px;
+  margin:auto;
+  padding:80px 50px;
 }
 
 h1 {
-  font-size: 55px;
-  color: #00eaff;
-  margin-bottom: 25px;
-  font-weight: 700;
-}
-.content {
-  max-width: 1000px;
-  margin: auto;
-  padding-top: 60px;
-}
-
-nav {
-  padding: 25px 60px;
-}
-
-nav a {
-  margin-right: 25px;
-  font-size: 18px;
-}
-
-h1 {
-  font-size: 52px;
-  margin-bottom: 20px;
+  font-size:54px;
+  color:#00eaff;
+  margin-bottom:25px;
+  font-weight:700;
 }
 
 .content p, .content li {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size:19px;
+  line-height:1.7;
 }
-.project-card{
+
+/* PROJECT CARDS */
+.project-card {
   background:#111;
   padding:25px;
   margin:30px 0;
   border-radius:12px;
-  border: 1px solid #00eaff50;
+  border:1px solid #00eaff50;
 }
 
-.btn{
+/* BUTTON */
+.btn {
   display:inline-block;
   margin-top:15px;
-  padding:10px 20px;
+  padding:10px 22px;
   border-radius:6px;
   border:1px solid #00eaff;
+  color:#00eaff;
   text-decoration:none;
+  transition:.25s;
 }
 .btn:hover{
   background:#00eaff;
   color:#000;
-  font-weight:bold;
+  font-weight:600;
 }
-
-
